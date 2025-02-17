@@ -1,0 +1,10 @@
+{
+  "framework": "nuxt",
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "outputDirectory": ".output/public",
+  "regions": ["iad1"],
+  "env": {
+    "OPENAI_API_KEY": "@openai-api-key"
+  }
+}
